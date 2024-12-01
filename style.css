@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Fields {
+  display: flex;
+
+  flex-direction: column;
+
+}
+
+.input {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .input {
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.login {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

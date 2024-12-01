@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Singup form  -->
+  <main>
+    <div class="container d-flex justify-content-center">
+      <div class="row">
+        <div class="col-md-6 p-3">
+          <img src="assets/img2.jpg" alt="Singup_img" class="img-fluid">
+        </div>
+        <div class="col-md-6 input">
+          <div class="row ">
+            <h2>Create an account!</h2>
+            <p>Enter your details below to create an account and get started.</p>
+
+            <!-- First Column -->
+            <div class="col-md-6 col-12 order-1 order-md-1 Fields">
+              <label class="form-label" for="name">Full name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter...">
+              <label class="form-label" for="dob">Date of Birth</label>
+              <input type="date" class="form-control" id="dob" placeholder="DD/MM/YYYY">
+            </div>
+
+            <!-- Second Column -->
+            <div class="col-md-6 col-12 order-2 order-md-2 Fields">
+              <label class="form-label" for="confirm-name">Email</label>
+              <input type="email" class="form-control" id="confirm-name" placeholder="email@email.com">
+              <label class="form-label" for="phone">phone number</label>
+              <input type="text" class="form-control" id="phone" placeholder="phone number">
+            </div>
+
+            <!-- Password Fields -->
+            <div class="col-12 col-md-6 order-3 Fields">
+              <label class="form-label" for="password">Password</label>
+              <input type="password" class="form-control" id="password" placeholder="Password">
+            </div>
+            <div class="col-12 col-md-6 order-4 Fields">
+              <label class="form-label" for="confirm-password">Confirm Password</label>
+              <input type="password" class="form-control" id="confirm-password" placeholder="Confirm Password">
+            </div>
+            <div class="col-12 col-md-6 order-4 mt-3 Fields">
+              <button class="btn btn-dark">Create account</button>
+            </div>
+            <div class="col-12 col-md-6 order-4 mt-3 Fields">
+              <p class="text-muted"> Already have an account? <a href="login.html">Login </a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- include javascript from here -->
+  <script src="script.js"></script>
+</body>
+
+</html>
